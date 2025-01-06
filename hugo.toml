@@ -1,0 +1,23 @@
+baseURL = 'https://chester.monster/'
+languageCode = 'en-us'
+title = 'Chester Monster'
+theme = 'diary'
+
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 3
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 2
+
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+
+[params]
+cloudflareToken = "1sCKUeHYEv3W0TB2w4t1tsXs8m9MqYyjp4g7hyPA"
